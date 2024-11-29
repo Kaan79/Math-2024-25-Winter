@@ -1,74 +1,169 @@
-# Mathematical Analysis
+# Calculus Exercises for 2024/2025 (Expanded and Creative Version)
+
+## 1. Relations and Functions
+
+1. For the relation $R = \{(x, y) \mid y = 2x + 1, \; x, y \in \mathbb{Z}\}$:
+   - Is it a function?
+   - Find its domain and range.
+
+2. Check if the following are functions:
+   - $f(x) = \sqrt{x-2}$
+   - $g(x) = \pm \sqrt{x}$
+
+3. Create a relation $R$ on the set of integers where $xRy$ if $x - y$ is even. Verify whether $R$ is reflexive, symmetric, and transitive.
+
+4. Let $f(x) = x^3 - 3x^2 + 4$. Show that $f(x)$ is one-to-one or provide a counterexample.
+
+5. Find a real-life example of a relation that is:
+   - Reflexive but not symmetric.
+   - Symmetric but not transitive.
+
+## 2. Composition of Functions
+
+1. Let $f(x) = 3x - 1$ and $g(x) = \sqrt{x}$. Find:
+   - $f(g(x))$
+   - $g(f(x))$
+
+2. If $h(x) = |x|$ and $k(x) = x - 2$, compute $h(k(x))$ and $k(h(x))$. What is the domain of each?
+
+3. Show that for $f(x) = x^2$ and $g(x) = 2x + 1$, the equation $f(g(x)) = g(f(x))$ does not hold.
+
+4. Design a pair of functions such that their compositions satisfy:
+   - $f(g(x)) = x$
+   - $g(f(x)) = x$
+
+5. Let $f(x) = e^x$ and $g(x) = \ln(x)$. Verify the composition properties of $f(g(x))$ and $g(f(x))$.
+
+## 3. Limits of Sequences
+
+1. Prove the divergence of the sequence $a_n = \frac{n^2 + 1}{2n}$.
+
+2. Calculate:
+   - $\lim_{n \to \infty} \frac{(-1)^n}{n}$
+   - $\lim_{n \to \infty} \sqrt{n} \left(1 - \frac{1}{n}\right)^n$
+
+3. Define a sequence recursively by $a_1 = 1$ and $a_{n+1} = \frac{a_n + 3}{2}$. Show that $\{a_n\}$ converges and find its limit.
+
+4. Use the definition of the limit of a sequence to prove:
+   - $\lim_{n \to \infty} \frac{1}{n^p} = 0$ for $p > 0$.
+   - $\lim_{n \to \infty} \frac{n}{n+1} = 1$.
+
+5. Let $b_n = \sum_{k=1}^n \frac{1}{k}$. Show that $b_n$ diverges as $n \to \infty$.
+
+## 4. Limits of Real Functions
+
+1. Compute:
+   - $\lim_{x \to 1^-} \frac{|x - 1|}{x - 1}$
+   - $\lim_{x \to \infty} \frac{x^3 + 2x^2}{x^4 - 3x^3}$
+
+2. Prove or disprove:
+   - $\lim_{x \to 0} \frac{\sin(x)}{x} = 1$
+   - $\lim_{x \to \infty} \ln(x) = \infty$
+
+3. Define a piecewise function:
+   $$
+   f(x) =
+   \begin{cases}
+   x^2 & \text{if } x < 1 \\
+   2x - 1 & \text{if } x \geq 1
+   \end{cases}
+   $$
+   Determine the continuity and limits at $x = 1$.
+
+4. Evaluate $\lim_{x \to \infty} \left(1 + \frac{1}{x}\right)^x$ using logarithms.
+
+5. Challenge: Show that $\lim_{x \to 0} \frac{\sin(3x)}{2x} = \frac{3}{2}$.
+
+## 5. Continuity
+
+1. For $f(x) = \frac{x^2 - 4}{x - 2}$, discuss:
+   - Is $f(x)$ continuous everywhere?
+   - If not, redefine $f(x)$ to make it continuous.
+
+2. Show that $f(x) = x \sin\left(\frac{1}{x}\right)$ is continuous everywhere except at $x = 0$.
+
+3. Let $g(x)$ be a step function defined as:
+   $$
+   g(x) =
+   \begin{cases}
+   1 & \text{if } x \in \mathbb{Q} \\
+   0 & \text{if } x \notin \mathbb{Q}
+   \end{cases}
+   $$
+   Prove that $g(x)$ is discontinuous at every $x \in \mathbb{R}$.
+
+4. Create an example of a function that is continuous everywhere but not differentiable at any point.
+
+5. Verify that $f(x) = |x|$ satisfies the three conditions for continuity.
+
+## 6. Derivatives
+
+1. Differentiate:
+   - $f(x) = \sqrt{x^3 + 2}$
+   - $g(x) = \ln(x^2 + 1)$
+   - $h(x) = x^2 e^x$
+
+2. Use implicit differentiation to find $\frac{dy}{dx}$ for:
+   - $x^2 + y^2 = 1$
+   - $e^x y + \sin(y) = x$
+
+3. Prove:
+   - $\frac{d}{dx} (\ln(\sin(x))) = \cot(x)$
+
+4. For $f(x) = \cos(x)$, verify that $f''(x) = -f(x)$.
+
+5. Let $y = \frac{x^2}{1+x}$. Differentiate using:
+   - Quotient rule
+   - Logarithmic differentiation
+
+## 7. Extrema
+
+1. Find the critical points and classify them as maxima, minima, or saddle points for:
+   - $f(x) = x^3 - 6x^2 + 9x$
+   - $g(x, y) = x^2 + y^2 - 4xy$
+
+2. Maximize $f(x) = x^2 + 3x - 5$ on $[-2, 3]$.
+
+3. Find the absolute extrema for $f(x) = \sin(x)$ on $[0, 2\pi]$.
+
+4. Challenge: Prove that $f(x) = e^x$ has no maximum or minimum.
+
+5. Solve the optimization problem: Find the dimensions of a rectangle with perimeter 20 that maximize its area.
+
+## 8. Taylor Series
+
+1. Find the Taylor series for:
+   - $f(x) = \cos(x)$ around $x = 0$ up to the 4th degree.
+   - $g(x) = \ln(1+x)$ around $x = 0$ up to the 3rd degree.
+
+2. Approximate $e^{0.1}$ using the first 4 terms of its Taylor series.
+
+3. Derive the Maclaurin series for $f(x) = \tan^{-1}(x)$.
+
+4. Challenge: Use Taylor series to prove that $\lim_{x \to 0} \frac{\sin(x) - x}{x^3} = -\frac{1}{6}$.
+
+5. Write the Taylor expansion of $f(x) = (1+x)^n$ and interpret the coefficients combinatorially.
 
 ---
 
-## Sequences, Functions, and Limits
+### Bonus: Creative Applications of Calculus
 
-* Definitions (sequence, general term, sum, types of sequences: geometric, arithmetic, harmonic, ...)
-* Limits of numerical sequences
-* Limit of a function (theorems, continuity and points of discontinuity, l'Hôpital's rule mentioned, important limits: $e^x$ as $x$ approaches infinity)
+1. **Projectile Motion**: A cannonball is fired with an initial velocity of $50 \, \text{m/s}$ at an angle of $30^\circ$. Using derivatives, find:
+   - The maximum height reached.
+   - The total time of flight.
 
----
+2. **Economics**: The profit function is $P(x) = -2x^2 + 50x - 300$, where $x$ is the number of units sold. Find the number of units that maximize profit.
 
-## Differential Calculus
+3. **Physics**: A particle moves along a curve described by $s(t) = t^3 - 6t^2 + 9t + 1$. Find:
+   - Velocity at $t = 2$
+   - Acceleration at $t = 2$
+   - The time when the particle is at rest.
 
-### Derivatives
+4. **Computer Science**: Optimize the runtime of an algorithm with cost function $T(n) = n^2 - 5n + 6$.
 
-* Derivative of a function
-* Definition of the derivative, its geometric and physical significance
-* Differentiation rules
-* Differentiation of basic elementary functions
-
-### Advanced
-
-* Differentiation of composite functions
-* Derivative of an exponential function
-* Differentiation of logarithms
-* Inverse functions and their derivatives
-
-### Applications
-
-* Physics (Differential of a function and its geometric significance)
-* Extremum problems/Optimization (Extrema of functions, necessary and sufficient conditions for extrema, finding maximum and minimum values, convexity and concavity of functions, inflection points)
-* Calculating limits using l'Hôpital's rule
-* Differentiation of parametrically defined and implicitly defined functions
-* Approximation of functions (Taylor series, ...)
-* Theorems (Rolle's theorem, Lagrange Mean Value Theorem, Cauchy Mean Value Theorem, Darboux's theorem, Weierstrass theorem)
-
----
-
-## Integrals
-
-### Indefinite Integral
-
-* Definitions (as the inverse of differentiation) and its properties, "Integral of a derivative vs. derivative of an integral"
-* Table of indefinite integrals (derivative table in reverse)
-* integration constant $+C$
-
-### Methods of Integration
-
-* Guessing and testing
-* Method of substitution
-* Integration by parts
-* Integration of rational functions (quadratic polynomials in the denominator)
-* Integration of expressions involving trigonometric functions
-
-### Definite Integral
-
-* Definitions (definition, interpretation, and properties of the definite integral, Riemann integral – numerical and symbolic methods, improper integrals, left/right improper integrals)
-* Substitution and integration by parts in the definite integral
-* Applications of the definite integral (distance, volume, area, length of arc, surface area of a solid of revolution, volume of solids of revolution)
-
----
-
-## Series
-
-* Definition of a series (numerical, functional: power series, Fourier series), examples of series
-* Alternating series (definition, examples)
-* Power Series (convergence criteria), examples of Taylor and Maclaurin series (applications of power series for finding function values and limits, and for integrating functions)
-* Fourier series (definition, applications)
-
----
+5. **Biology**: A population grows according to $P(t) = \frac{100}{1+9e^{-0.5t}}$. Find the rate of change of the population at $t = 2$.
+6. 
+7. 
 
 # Exercises 2024/2025
 
@@ -174,7 +269,6 @@
 8. Generalize the Leibniz rule to the case of the derivative of the product of three functions: $(f \cdot g \cdot h)'$.
 
 Link: https://www.geogebra.org/m/GAcTpGCh 
-
 
 ---
  
